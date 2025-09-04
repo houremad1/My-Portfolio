@@ -1,0 +1,108 @@
+/* ===== About Me Section ===== */
+.about-section {
+  display: flex;
+  justify-content: flex-start;  /* Align the About Me block to the left */
+  padding: 3rem 2rem;
+  background-color:#193359;  /* Soft background color for the whole section */
+  width: 1200;
+  border-radius: 12px 12px;
+  /* margin-left: 150px; */
+  margin: 30px;
+
+}
+
+/* About Me Block - Small and Left-aligned */
+.about-block {
+  background-color: #f8f9fa; /* White background for the block */
+  padding: 2rem;
+ /* Rounded corners */
+  box-shadow: 0 8px 16px rgba(2, 6, 23, .18);  /* Soft shadow */
+  max-width: 400px;  /* Fixed width for the block */
+  width: 100%;  /* Ensure it doesn't exceed available space */
+  margin-right: 2rem;  /* Add space to the right */
+   
+}
+
+/* Text Section */
+.about-text {
+  color: white;  /* Dark blue text */
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: whilte;
+  margin-bottom: 1rem;
+ 
+}
+
+.about-text p {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  font-weight: bold;
+  margin: 0;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 980px) {
+  .about-section {
+    padding: 2rem;
+    justify-content: center;  /* Center on smaller screens */
+  }
+
+  .about-block {
+    width: 90%;  /* Make the block slightly wider on mobile */
+  }
+}
+/* ===== Contact Me Section ===== */
+.contact-section {
+  width: 45%;  /* Takes up 45% of the available space */
+  background-color:  rgba(255, 255, 255,0.3);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(2, 6, 23, .18);
+  
+margin-left: 30px; 
+}
+
+.contact-section h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #193359;
+  margin-bottom: 1rem;
+}
+
+.contact-section p {
+  color: #193359;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+  color: #193359;
+}
+
+.contact-section li {
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+.contact-section a {
+  color: #F59E0B; /* Accent color for links */
+  text-decoration: none;
+}
+
+.contact-section a:hover {
+  text-decoration: underline;
+}
+
+/* ===== Responsive Design ===== */
+@media (max-width: 980px) {
+  .contact-section {
+    width: 100%;  /* Full width for contact section on smaller screens */
+    margin-bottom: 2rem;
+  }
+}
